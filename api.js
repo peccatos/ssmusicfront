@@ -1,5 +1,5 @@
 const LOCAL_API_BASE = "http://127.0.0.1:3001";
-const BACKEND_API_BASE = "https://eva-player.onrender.com";
+const BACKEND_API_BASE = "https://notifications-propose-taxi-prison.trycloudflare.com";
 const TELEGRAM_INIT_DATA_HEADER = "X-Telegram-Init-Data";
 
 export function resolveApiBase(locationLike = globalThis.location) {
