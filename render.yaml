@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ssmusicfront
+    runtime: static
+    plan: free
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /player
+        destination: /player.html
